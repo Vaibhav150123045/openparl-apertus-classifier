@@ -27,7 +27,7 @@ This project is developed as part of **Hack Apertus 2026** in collaboration with
 - **Dual Classification Modes:**
   - *Standard*: Maps affairs to hierarchical APS policy categories.
   - *Ad-Hoc / Zero-Shot*: Detects user-specified keywords and thematic concepts on demand.
-- **Apertus Backbone:** Utilizes `swiss-ai/Apertus-v1.5-8B` fine-tuned via PEFT (LoRA) for high accuracy with minimal compute overhead.
+- **Apertus Backbone:** Utilizes `swiss-ai/Apertus-v1.5-8B`
 - **Explainability & Transparency:** Outputs matched topics alongside confidence scores and key excerpt rationales to maintain political neutrality and support human-in-the-loop validation.
 - **RESTful API & CLI:** Simple endpoints to fetch directly from the OpenParlData API or classify custom document payloads.
 
